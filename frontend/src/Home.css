@@ -1,0 +1,85 @@
+.full-screen-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.full-screen-logo {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain; /* Ensures the SVG maintains its aspect ratio within the container */
+}
+
+.video-background-container {
+  background-color: gray;
+  margin-top: 56px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video covers the entire area */
+}
+/* ContentOverlay.css */
+.content-overlay {
+  position: absolute;
+  top: 200px;
+  left: 10%;
+  transform: translate(-10%, -10%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+/* 
+.text-blurred {
+  filter: blur(2px);
+} */
+
+.icon-container {
+  position: absolute;
+  bottom: -10%;
+  right: -10%;
+}
+
+.icon-custom {
+  width: 50px;
+  height: 50px;
+}
+.text-white1 {
+  /* Learn to Build in Web3.  Earn as You Grow */
+  /* 
+position: absolute;
+width: 681px;
+height: 146px;
+left: 100px;
+top: 215px; */
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 120%;
+  /* or 72px */
+
+  color: #ffffff;
+}
+/* LEARN . CODE . BUILD . EARN Why to Pay for Learning. GET PAID for Learning with our expertly curated Gamified Challenges and Beginner friendly Pre-Configured Sandbox Environment */
+
+.text-white2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 147.5%;
+  /* or 30px */
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}

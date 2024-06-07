@@ -1,0 +1,11 @@
+body {
+  background-color: #121212;
+}
+
+.output-container {
+  min-height: 150px;
+}
+
+.select-language {
+  width: 50%;
+}
